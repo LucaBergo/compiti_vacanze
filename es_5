@@ -1,0 +1,57 @@
+
+#include <iostream>
+using namespace std;
+
+
+int inserimento (){
+	
+	
+	int numero;
+	cout<<"Inserisci l' intero";
+	cin>>numero;
+
+	}
+
+int CALC1(int x, int num=1){
+	
+	
+	for (int i=1; i<=x; i++){
+		
+		num*=i;
+		
+		
+		
+		
+		
+		
+	}
+	return num;
+	
+}
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+int main(){
+	
+	
+	int fattoriale;
+	x=inserimento();
+	y=inserimento();
+	
+	fattoriale=CALC1(x) 
+	cout<<fattoriale
+	
+	
+	
+
+	
+}
