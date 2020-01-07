@@ -1,0 +1,30 @@
+
+
+#include <iostream>
+using namespace std;
+
+
+int somma(int x, int y){
+	
+	cout<<"La somma e' "<<x+y;
+	
+	
+	
+}
+
+
+
+
+int main(){
+	
+	int x,y;
+	
+	
+	cout<<"Inserisci il primo numero ";
+	cin>>x;
+	cout<<"Inserisci il secondo numero ";
+	cin>>y;
+	
+	
+	somma(x,y);
+}
