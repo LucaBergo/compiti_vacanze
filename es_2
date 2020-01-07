@@ -1,0 +1,58 @@
+
+
+#include <iostream>
+using namespace std;
+
+
+int inserimento(){
+	while(true){
+		
+		int numero;
+		cout<<"Inserisci un numero ";
+		cin>>numero;
+		if (numero>=0){	
+			return numero;	
+		}
+		else if (numero<0) {	
+			break;
+		}	
+	}	
+}
+
+int operazione(int a, int b){
+	
+	char operatore;
+	cout<<"Inserisci l'operatore ";
+	cin>>operatore;
+	if (operatore=='+'){
+		
+		cout<<a+b;	
+	}
+	else if(operatore=='-'){
+		cout<<a-b;
+	}
+	else if(operatore=='*'){
+		
+		cout<<a*b;
+	}
+	else if(operatore=='/'){
+		cout<<a/b;
+	}
+
+	
+		
+}
+
+int main(){
+	
+	int a,b,risultato ;
+	a=inserimento();
+	b=inserimento();
+	
+	risultato=operazione(a,b);
+	
+	
+	
+	
+	
+}
