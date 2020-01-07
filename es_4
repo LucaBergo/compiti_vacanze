@@ -1,0 +1,71 @@
+
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+
+int inserimento(){
+	while(true){
+		
+		int numero;
+		cout<<"Inserisci un numero ";
+		cin>>numero;
+		if (numero>=0){	
+			return numero;	
+		}
+		else if (numero<0) {	
+			break;
+		}	
+	}	
+}
+int fattoriale(int a){
+	int f=1;
+	for(int i=1;i<=a; i++){
+		f*=i;
+	}
+	return f;
+}
+
+int potenza( int x, int n){
+	cout<<pow(x,n);
+}
+
+int main(){
+	
+	int a;
+	int x,n;
+	int scelta;
+	int risultato;
+	
+	do{
+		cout<<"\n1.Calcola il fattoriale"<<endl;
+		cout<<"2.Calcola la potenza"<<endl;
+		cout<<"3.Esci"<<endl;
+		cin>>scelta;
+		switch (scelta){
+			
+			case (1):{ 
+				a=inserimento();
+				risultato=fattoriale(a);
+				cout<<risultato;
+				
+			} break;
+			case(2):{
+				
+				
+				x=inserimento();
+				n=inserimento();
+				potenza(x,n);
+			}break;
+				
+			
+			
+		}
+		
+		
+		
+	}while (scelta!=3);
+	
+	
+}
