@@ -1,57 +1,39 @@
-
 #include <iostream>
 using namespace std;
 
 
-int inserimento (){
-	
-	
-	int numero;
-	cout<<"Inserisci l' intero";
-	cin>>numero;
-
-	}
-
-int CALC1(int x, int num=1){
-	
-	
-	for (int i=1; i<=x; i++){
+int inserimento(){
+	while(true){
 		
-		num*=i;
-		
-		
-		
-		
-		
-		
-	}
-	return num;
-	
+		int numero;
+		cout<<"Inserisci un numero ";
+		cin>>numero;
+		if (numero>=0){	
+			return numero;	
+		}
+		else if (numero<0) {	
+			break;
+		}	
+	}	
 }
-	
-	
-	
-	
-	
-	
-	
-	
 
+int CALC1(int x){
+	int f=1;
+	for(int i=1;i<=a; i++){
+		f*=i;
+	}
+	return f;
+}
 
-
-
-int main(){
-	
-	
-	int fattoriale;
-	x=inserimento();
-	y=inserimento();
-	
-	fattoriale=CALC1(x) 
-	cout<<fattoriale
-	
-	
-	
-
-	
+int CALC2(int y){
+	int b=1;
+	for(int i=0;i<y;i++){
+		
+		b*=3
+		
+	}
+	return b;
+}
+double rapp(int f, b){
+	return f/b;
 }
