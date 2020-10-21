@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,24 +8,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-  <style>
-    .carousel-control-prev-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-    }
-
-    .carousel-control-next-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-    }
-    
-    
-  </style>
-
  
 
 </head>
 
 
-<body >
+<body background= "https://images7.alphacoders.com/932/thumb-1920-932701.jpg" >
 <nav class="navbar navbar-expand-lg navbar-light " style= "background-color : #897ed4;">
   <a class="navbar-brand " href="#" >FIFA 21</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,7 +69,7 @@
         </div>   
       </div>
       <div class="carousel-item">
-        <img src="https://i.ytimg.com/vi/mj40LLEKg1Q/maxresdefault.jpg" alt="CARRIERA" width="720" height="406">
+        <img src="https://imiglioridififa.com/wp-content/uploads/2020/07/novita-carriera-allenatore-fifa-21.jpg" alt="CARRIERA" width="720" height="406">
         <div class="carousel-caption">
           <h3>Carriera</h3>
           <p.centro>Prestito con diritto di riscatto, nuovo allenamento personalizzato e tante novità</p>
@@ -107,10 +94,17 @@
   <br />
   <br />
 
+  
+ 
+
+  <br>
+  <br>
+  <br>
+
   <div align="center">
   <div class="btn-group">
     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Action
+     Compra Fifa21
     </button>
     <div class="dropdown-menu">
       <a class="dropdown-item" href="https://store.playstation.com/it-it/product/EP0006-CUSA18987_00-FIFAFOOTBALL2021">Compra la standard edition</a>
@@ -132,3 +126,4 @@
 </body>
 
 </html>
+
